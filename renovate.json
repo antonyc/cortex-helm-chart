@@ -7,17 +7,5 @@
   "assignees": [
     "ShuzZzle",
     "kd7lxl"
-  ],
-  "regexManagers": [
-    {
-      "description": "Update image.tag within README.md",
-      "fileMatch": ["^README\\.md$"],
-      "matchStrings": [
-        "\\|\\s+image.tag\\s+\\|\\s+string\\s+\\|\\s+`\"(?<currentValue>.*?)\"`\\s+\\|\\s+\\|\\s+",
-        "(:\\s|-)(?<currentValue>\\d+\\.\\d+\\.\\d+(?:\\+\\d+)?)"
-      ],
-      "depNameTemplate": "renovate/renovate",
-      "datasourceTemplate": "docker"
-    }
   ]
 }
