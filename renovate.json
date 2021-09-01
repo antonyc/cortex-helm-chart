@@ -16,6 +16,7 @@
         "\\|\\s+image.tag\\s+\\|\\s+string\\s+\\|\\s+`\"(?<currentValue>.*?)\"`\\s+\\|\\s+\\|\\s+",
         "(:\\s|-)(?<currentValue>\\d+\\.\\d+\\.\\d+(?:\\+\\d+)?)"
       ],
+      "depNameTemplate": "cortexproject/cortex",
       "datasourceTemplate": "docker"
     }
   ]
