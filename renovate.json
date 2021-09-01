@@ -15,7 +15,8 @@
       "matchStrings": [
         "\\|\\s+image.tag\\s+\\|\\s+string\\s+\\|\\s+`\"(?<currentValue>.*?)\"`\\s+\\|\\s+\\|\\s+",
         "(:\\s|-)(?<currentValue>\\d+\\.\\d+\\.\\d+(?:\\+\\d+)?)"
-      ]
+      ],
+      "datasourceTemplate": "docker"
     }
   ]
 }
