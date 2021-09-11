@@ -99,7 +99,7 @@ data:
         }
 
         # Ruler Config
-        location ~ /api/v1/rules {
+        location ~ /rules {
           proxy_pass      http://{{ template "cortex.fullname" . }}-ruler.{{ $rootDomain }}$request_uri;
         }
 
